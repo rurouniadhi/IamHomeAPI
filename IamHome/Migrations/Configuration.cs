@@ -10,15 +10,16 @@ namespace IamHome.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
+            AutomaticMigrationDataLossAllowed = true;
         }
 
         protected override void Seed(IamHome.Models.IamHomeContext context)
         {
             context.Users.AddOrUpdate(x => x.Id,
-                new User() { Id = 1, Name = "Jane Austen", PhoneNumber = 123, Email = "a@a.com", Status = true },
-                new User() { Id = 2, Name = "Charles Dickens", PhoneNumber = 456, Email = "b@b.com", Status = true },
-                new User() { Id = 3, Name = "Miguel de Cervantes", PhoneNumber = 789, Email = "c@c.com", Status = false }
+                new User() { Id = 1, Name = "Janne", Email = "a@a.com", PhoneNumber = 123, Status = true },
+                new User() { Id = 2, Name = "Robert", Email = "b@b.com", PhoneNumber = 456, Status = false },
+                new User() { Id = 3, Name = "Jon", Email = "c@c.com", PhoneNumber = 789, Status = true }
             );
 
         }

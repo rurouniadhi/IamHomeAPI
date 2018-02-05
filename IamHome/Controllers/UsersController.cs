@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
@@ -18,16 +18,36 @@ namespace IamHome.Controllers
         private IamHomeContext db = new IamHomeContext();
 
         // GET: api/Users
-        public IQueryable<User> GetUsers()
+        [HttpGet]
+        public IQueryable<UserDTO> GetUsers()
         {
-            return db.Users;
+            var users = from b in db.Users
+                        select new UserDTO()
+                        {
+                            Id = b.Id,
+                            Name = b.Name,
+                            Email = b.Email,
+                            PhoneNumber = b.PhoneNumber,
+                            Status = b.Status
+                        };
+
+            return users;
         }
 
         // GET: api/Users/5
-        [ResponseType(typeof(User))]
+        [ResponseType(typeof(UserDTO))]
         public async Task<IHttpActionResult> GetUser(int id)
         {
-            User user = await db.Users.FindAsync(id);
+            var user = await db.Users.Select(b =>
+            new UserDTO()
+            {
+                Id = b.Id,
+                Name = b.Name,
+                Email = b.Email,
+                PhoneNumber = b.PhoneNumber,
+                Status = b.Status
+
+            }).SingleOrDefaultAsync(b => b.Id == id);
             if (user == null)
             {
                 return NotFound();
@@ -37,6 +57,8 @@ namespace IamHome.Controllers
         }
 
         // PUT: api/Users/5
+        [HttpPut]
+        [HttpPost]
         [ResponseType(typeof(void))]
         public async Task<IHttpActionResult> PutUser(int id, User user)
         {
@@ -71,8 +93,18 @@ namespace IamHome.Controllers
             return StatusCode(HttpStatusCode.NoContent);
         }
 
-        // POST: api/Users
-        [ResponseType(typeof(User))]
+        [HttpPost]
+        [AllowAnonymous]
+        [Route("api/Users/Reset")]
+        public async Task<IHttpActionResult> Reset(User user)
+        { 
+          user.Status = false;
+          await db.SaveChangesAsync();
+          return Ok(user);
+        }
+
+    // POST: api/Users
+    [ResponseType(typeof(User))]
         public async Task<IHttpActionResult> PostUser(User user)
         {
             if (!ModelState.IsValid)

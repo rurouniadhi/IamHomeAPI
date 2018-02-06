@@ -57,7 +57,6 @@ namespace IamHome.Controllers
         }
 
         // PUT: api/Users/5
-        [HttpPut]
         [HttpPost]
         [ResponseType(typeof(void))]
         public async Task<IHttpActionResult> PutUser(int id, User user)
@@ -91,16 +90,6 @@ namespace IamHome.Controllers
             }
 
             return StatusCode(HttpStatusCode.NoContent);
-        }
-
-        [HttpPost]
-        [AllowAnonymous]
-        [Route("api/Users/Reset")]
-        public async Task<IHttpActionResult> Reset(User user)
-        { 
-          user.Status = false;
-          await db.SaveChangesAsync();
-          return Ok(user);
         }
 
     // POST: api/Users

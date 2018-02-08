@@ -1,0 +1,50 @@
+{
+  "project_info": {
+    "project_number": "1070010664755",
+    "firebase_url": "https://fir-iamhome.firebaseio.com",
+    "project_id": "firebase-iamhome",
+    "storage_bucket": "firebase-iamhome.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1070010664755:android:a78b1fbb55c41897",
+        "android_client_info": {
+          "package_name": "com.iamhome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1070010664755-74hurvecb3g5jqtn0g7q3erpptsk6i70.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1070010664755-5ck3eri7n152oburddrmdacusrglii9m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iamhome",
+            "certificate_hash": "2b3cec4c006f6f53ec06ce166932a72a7f370d2f"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsxPWPoutvrhk0R7eF2zeYxQ2JX9HcB58"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

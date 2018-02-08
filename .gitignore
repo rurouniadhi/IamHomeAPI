@@ -296,7 +296,7 @@ local.properties
 
 # node.js
 #
-*/App/node_modules/
+node_modules/
 npm-debug.log
 yarn-error.log
 

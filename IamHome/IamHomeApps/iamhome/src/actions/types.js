@@ -1,0 +1,11 @@
+export const LOGIN_USER = 'login_user';
+export const LOGIN_USER_SUCCESS = 'login_user_success';
+export const LOGIN_USER_FAIL = 'login_user_fail';
+export const LOGOUT_USER = 'logout_user';
+export const LOGOUT_USER_SUCCESS = 'logout_user_success';
+export const ITEMS_FETCH = 'items_fetch';
+export const ITEMS_IS_LOADING = 'items_is_loading';
+export const ITEMS_HAS_ERRORED = 'items_has_errored';
+export const ITEMS_FETCH_DATA_SUCCESS = 'items_fetch_data_success';
+export const ITEM_UPDATE = 'item_update';
+export const ITEM_UPDATE_SUCCESS = 'item_update_success';

@@ -31,13 +31,6 @@ class UserList extends Component {
         if (this.props.isLoading) {
             return <Text>Loading…</Text>;
         }
-        const checkinStatus = () => {
-          if (this.props.items.map((item) => item.Status) === false) {
-            return 'cross';
-          }
-        };
-        const a = 'cross';
-        const b = 'check';
         return (
           <View>
             <FlatList
@@ -48,7 +41,7 @@ class UserList extends Component {
                 <CardSection>
                   <Text style={styles.userStyle}>{item.Name}</Text>
                   <Icon
-                    name={[a && item.Status && b]}
+                    name='cross'
                     size={25}
                   />
                   <Text style={[styles.statusFalse, item.Status && styles.statusTrue]}>

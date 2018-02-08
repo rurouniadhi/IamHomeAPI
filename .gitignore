@@ -261,6 +261,7 @@ __pycache__/
 *.pyc
 
 # git ignore for React App
+###########################
 # OSX
 #
 .DS_Store
@@ -295,7 +296,7 @@ local.properties
 
 # node.js
 #
-node_modules/
+*/App/node_modules/
 npm-debug.log
 yarn-error.log
 

@@ -42,7 +42,6 @@ export const itemsFetchData = () => {
                 throw Error(response.statusText);
             }
             itemsIsLoading(dispatch);
-            console.log(response);
             return response;
         })
         .then((response) => response.json())

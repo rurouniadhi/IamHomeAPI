@@ -9,3 +9,5 @@ export const ITEMS_HAS_ERRORED = 'items_has_errored';
 export const ITEMS_FETCH_DATA_SUCCESS = 'items_fetch_data_success';
 export const ITEM_UPDATE = 'item_update';
 export const ITEM_UPDATE_SUCCESS = 'item_update_success';
+export const USER_DB = 'user_db';
+export const USER_DB_SUCCESS = 'user_db_success';

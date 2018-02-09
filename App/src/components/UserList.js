@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { FlatList, Text, View } from 'react-native';
 import { connect } from 'react-redux';
-import { GoogleSignin } from 'react-native-google-signin';
 import Icon from 'react-native-vector-icons/Entypo';
 import { itemsFetchData, loginUser, itemSave } from '../actions';
 import { CardSection } from './common';
@@ -9,7 +8,6 @@ import { CardSection } from './common';
 class UserList extends Component {
     componentWillMount() {
       this.props.itemsFetchData();
-      console.log(GoogleSignin.currentUser());
     }
 
     render() {

@@ -1,16 +1,15 @@
 import React, { Component } from 'react';
-import { View, Text } from 'react-native';
+import { View } from 'react-native';
 import { GoogleSigninButton } from 'react-native-google-signin';
 import { connect } from 'react-redux';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import { Spinner } from './common';
-import { loginUser, itemsFetchData } from '../actions';
+import { loginUser, itemsFetchData, logoutUser } from '../actions';
 
 class LoginForm extends Component {
   componentDidMount() {
     this.props.itemsFetchData();
   }
-
   onButtonPress() {
     const { items } = this.props;
     this.props.loginUser({ items });
@@ -79,5 +78,5 @@ const mapStateToProps = ({ auth, users }) => {
 };
 
 export default connect(mapStateToProps, {
-  loginUser, itemsFetchData
+  loginUser, itemsFetchData, logoutUser
 })(LoginForm);

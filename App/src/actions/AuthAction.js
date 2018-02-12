@@ -1,7 +1,7 @@
+import _ from 'lodash';
+import { Alert } from 'react-native';
 import { Actions } from 'react-native-router-flux';
 import { GoogleSignin } from 'react-native-google-signin';
-import { Alert } from 'react-native';
-// import { itemsFetchData } from './UsersAction';
 import {
   LOGIN_USER,
   LOGIN_USER_SUCCESS,
@@ -11,15 +11,13 @@ import {
 } from './types';
 
 export const loginUser = ({ items }) => {
-  console.log('ini items dari loginuser', items);
-  const userAllowed = items.map((user) => user.Email);
   return (dispatch) => {
     dispatch({ type: LOGIN_USER });
     GoogleSignin.signIn()
     .then((user) => {
       const currentUser = GoogleSignin.currentUser().email;
-      const check = userAllowed.indexOf(currentUser);
-        if (check > -1) {
+      const userdb = _.find(items, { Email: currentUser });
+        if (userdb != null) {
           loginUserSuccess(dispatch, user);
         } else {
           Alert.alert(
@@ -59,7 +57,7 @@ const logoutUserSuccess = (dispatch) => {
   dispatch({
     type: LOGOUT_USER_SUCCESS
   });
-  Actions.login();
+  // Actions.login();
   console.log('out');
 };
 

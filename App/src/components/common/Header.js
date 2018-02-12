@@ -17,7 +17,6 @@ const styles = {
         flexDirection: 'row',
         justifyContent: 'space-between',
         padding: 20,
-        flex: 0
     },
     textStyle: {
         fontSize: 30,

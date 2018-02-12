@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
-import { View, Text } from 'react-native';
+import { View } from 'react-native';
 import { GoogleSigninButton } from 'react-native-google-signin';
 import { connect } from 'react-redux';
+import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import { Spinner } from './common';
-import { loginUser, itemsFetchData } from '../actions';
+import { loginUser, itemsFetchData, logoutUser } from '../actions';
 
 class LoginForm extends Component {
   componentDidMount() {
     this.props.itemsFetchData();
   }
-
   onButtonPress() {
     const { items } = this.props;
     this.props.loginUser({ items });
-  } 
+  }
 
   renderButton() {
     if (this.props.loading) {
@@ -23,7 +23,7 @@ class LoginForm extends Component {
       <GoogleSigninButton
         style={styles.buttonGoogle}
         size={GoogleSigninButton.Size.Standard}
-        color={GoogleSigninButton.Color.Light}
+        color={GoogleSigninButton.Color.Dark}
         onPress={this.onButtonPress.bind(this)}
       />
     );
@@ -32,7 +32,11 @@ class LoginForm extends Component {
   render() {
     return (
       <View style={styles.containerStyle}>
-        <Text style={styles.logoStyle}>Φ</Text>
+        <View style={{ flex: 4, backgroundColor: '#E1CE7A', opacity: 0.8 }} />
+        <View style={{ flex: 3, backgroundColor: '#FBFFB9', opacity: 0.8 }} />
+        <View style={{ flex: 2, backgroundColor: '#FDD692', opacity: 0.8 }} />
+        <View style={{ flex: 1, backgroundColor: '#ffe6bb', opacity: 0.8 }} />
+        <Icon style={styles.logoStyle} name='home-map-marker' size={150} />
         {this.renderButton()}
       </View>
     );
@@ -41,26 +45,29 @@ class LoginForm extends Component {
 
 const styles = {
   containerStyle: {
-    flex: 1,
-    backgroundColor: 'rgba(176, 209, 236, 1)',
-    justifyContent: 'center',
-    alignItems: 'center'
+    flexDirection: 'row',
+    flex: 1
   },
   logoStyle: {
     position: 'absolute',
     top: 40,
+    left: 50,
     fontSize: 250,
-    color: '#rgb(41, 139, 194)',
+    color: '#754F44',
     textAlign: 'center',
     marginTop: 10,
-    marginBottom: 10
+    marginBottom: 10,
+    elevation: 5
   },
   buttonGoogle: {
+    position: 'absolute',
     height: 50,
     width: 150,
-    marginTop: 400,
+    bottom: 50,
+    left: 120,
     padding: 10,
-    alignSelf: 'center',
+    elevation: 5,
+    alignSelf: 'center'
   }
 };
 
@@ -71,5 +78,5 @@ const mapStateToProps = ({ auth, users }) => {
 };
 
 export default connect(mapStateToProps, {
-  loginUser, itemsFetchData
+  loginUser, itemsFetchData, logoutUser
 })(LoginForm);

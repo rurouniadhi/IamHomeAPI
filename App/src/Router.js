@@ -19,12 +19,12 @@ const RouterComponent = () => {
           <Scene
             key="home"
             component={Home}
-            renderBackButton={() => (null)}
             hideNavBar
           />
           <Scene
             key="checkinpage"
             component={CheckinPage}
+            hideNavBar
           />
         </Scene>
       </Scene>

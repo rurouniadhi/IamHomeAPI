@@ -25,9 +25,8 @@ export const itemSave = ({ Id, Name, Email, PhoneNumber, Status }) => {
         Status
       })
     })
-    .then((response) => {
-        console.log(response);
-        Actions.home();
+    .then(() => {
+        Actions.home({ Status });
     })
     .catch((err) => console.log(err));
   };

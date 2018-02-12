@@ -10,12 +10,14 @@ import { ButtonCircle } from './common';
 import { logoutUser, loginUser, itemsFetchData } from '../actions';
 
 class Home extends Component {
-  componentDidMount() {
+  componentWillMount() {
    BackHandler.addEventListener('hardwareBackPress', () => {
      return true;
    });
   }
-
+  componentDidMount() {
+    this.props.itemsFetchData();
+  }
   onLogoutPress() {
     Alert.alert(
       '',
@@ -25,8 +27,6 @@ class Home extends Component {
         { text: 'OK',
           onPress: () => {
             this.props.logoutUser();
-            Actions.login();
-            console.log('after press logout', this.props);
           }
         },
       ],
@@ -38,36 +38,33 @@ class Home extends Component {
     Actions.checkinpage({ user: userdb });
   }
   note() {
-    const currentUser = GoogleSignin.currentUser().email;
-    const userdb = _.find(this.props.items, { Email: currentUser });
-    if (userdb.Status === false) {
+    if (this.props.Status === false) {
       return <Text style={styles.noteRed}>You have not checked in today</Text>;
     }
     return <Text style={styles.note}>Welcome home</Text>;
   }
   renderButton() {
-    const currentUser = GoogleSignin.currentUser().email;
-    const userdb = _.find(this.props.items, { Email: currentUser });
-    // console.log('renderbutton', userdb);
-    if (userdb.Status === true) {
+    const { buttonFalse, buttonTrue } = styles;
+    if (this.props.Status === true) {
       return (
         <ButtonCircle
-          style={styles.buttonFalse}
+          style={buttonFalse}
           onPress={this.onCheckInPress.bind(this)}
         >out</ButtonCircle>
       );
     }
     return (
       <ButtonCircle
+        style={buttonTrue}
         onPress={this.onCheckInPress.bind(this)}
       >in</ButtonCircle>
     );
   }
   render() {
-    const { welcomeText, logoutStyle, headerStyle } = styles;
+    const { container, welcomeText, logoutStyle, headerStyle } = styles;
     const user = GoogleSignin.currentUser();
     return (
-      <View style={{ backgroundColor: '#FBFFB9', flex: 1 }}>
+      <View style={container}>
         <View style={headerStyle}>
           <View>
             <Text style={welcomeText} >
@@ -89,6 +86,10 @@ class Home extends Component {
   }
 }
 const styles = {
+  container: {
+    backgroundColor: '#FBFFB9',
+    flex: 1,
+  },
   headerStyle: {
     flexDirection: 'row',
     justifyContent: 'space-between',
@@ -98,6 +99,7 @@ const styles = {
   welcomeText: {
     fontSize: 35,
     color: '#754F44',
+    fontFamily: 'Kievit'
   },
   logoutStyle: {
     color: '#754F44'
@@ -115,14 +117,18 @@ const styles = {
   buttonFalse: {
     backgroundColor: '#EC7357'
   },
+  buttonTrue: {
+    backgroundColor: '#64c46e',
+  }
 };
 
 const mapStateToProps = ({ auth, users }) => {
-  const { user, userdb, error, loading } = auth;
+  const { user, error, loading } = auth;
   const { items } = users;
+  // const { currentUserdb } = userdb;
   return {
+    // currentUserdb,
     user,
-    userdb,
     error,
     loading,
     items

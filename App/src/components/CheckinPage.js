@@ -5,6 +5,7 @@ import { connect } from 'react-redux';
 import { Actions } from 'react-native-router-flux';
 import Icon from 'react-native-vector-icons/Entypo';
 import { itemUpdate, itemSave } from '../actions';
+import { note, renderButton } from './Home';
 import { ButtonCircle } from './common';
 
 class CheckinPage extends Component {
@@ -16,10 +17,9 @@ class CheckinPage extends Component {
       return false;
     });
   }
-
   onCheckin() {
     const Status = !this.props.user.Status; //this toggle true/false status
-    console.log(this.props.user.Status);
+    console.log('status', Status);
     const { Name, Email, PhoneNumber } = this.props;
     this.props.itemSave({ Name, Email, PhoneNumber, Status, Id: this.props.user.Id });
   }
@@ -93,5 +93,5 @@ const mapStateToProps = (state) => {
 };
 
 export default connect(mapStateToProps, {
-  itemUpdate, itemSave
+  itemUpdate, itemSave, note, renderButton
 })(CheckinPage);

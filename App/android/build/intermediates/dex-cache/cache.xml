@@ -3,30 +3,12 @@
 
     <item
         is-multidex="false"
-        jar="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\jars\classes.jar"
+        jar="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\11.0.4\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
-        <dex dex="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.2.0_615e361894ddd4b81a35daeafa633f36b5448e79.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
-        <dex dex="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.3.0_72a6c7f859687a3c10627de261f6355c3a10b408.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\11.0.4\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
-        <dex dex="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-11.0.4_88a598900a1c6e1cb8f206e53747cc18292efded.jar" />
+        sha1="d8942ee348aaa9341f08f7e2437063893fe27542">
+        <dex dex="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gcm-11.0.4_5138375ad4b1453ecdef3302eb832372e8283985.jar" />
     </item>
     <item
         is-multidex="false"
@@ -39,30 +21,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\11.0.4\jars\classes.jar"
+        jar="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\11.0.4\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="0bffdc0bd4f7ca0e27c5bfeef39569f8da00aa26">
-        <dex dex="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-base-11.0.4_8a1b563a8460547815661b4285715e947c575251.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.2.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
-        <dex dex="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.2.0_a9f911594fa57c29a0a7420320c4d6001d6deb34.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.52.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="af61eb11ffb4296cab0c93218248a3dfcec0a84c">
-        <dex dex="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\pre-dexed\debug\com.facebook.react-react-native-0.52.0_673e060011e1a90fdba35409bc8700f19aa8bf1c.jar" />
+        sha1="dd282bdeaa904c59d77e57dedd7e0a241c9b679d">
+        <dex dex="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-iid-11.0.4_b7b3d7de60c555e327c675401800bd8c0df13962.jar" />
     </item>
     <item
         is-multidex="false"
@@ -84,39 +48,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\11.0.4\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f5ff5e3811e8c9485fd27f9052ae4d4d23a22d9d">
-        <dex dex="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-11.0.4_bf6dfa7df935b900b8659defbd9573ad4c62d3ac.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\11.0.4\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="f5ff5e3811e8c9485fd27f9052ae4d4d23a22d9d">
         <dex dex="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-11.0.4_1038f7dd6191e358fde041d5630d8d29b01ebe3d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\pre-dexed\debug\com.facebook.soloader-soloader-0.1.0_a6e1c3ca84c9cade9022698c8024809db7ab7984.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\11.0.4\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="2430e711762a749feb00b3d64858ca4768251b9d">
-        <dex dex="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-11.0.4_b93f08433e432b7df27f2ff946f7bdd4b5252cf6.jar" />
     </item>
     <item
         is-multidex="false"
@@ -138,15 +75,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
-        <dex dex="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-okhttp3-1.3.0_79703c9316199d3ad391396e8aebb7081bbd01fe.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\NV004\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.6.0\3f9b16b774f2c36cfd86dd2053d0b3059531dacc\okhttp-urlconnection-3.6.0.jar"
         jumboMode="false"
         optimize="true"
@@ -156,75 +84,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\exploded-aar\iamhome\react-native-vector-icons\unspecified\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="279750fed3c920d06351dbf32889c1b48203c7ad">
-        <dex dex="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\pre-dexed\debug\iamhome-react-native-vector-icons-unspecified_e35ca981084b3b4c9d133830cd115f27b9efa4a0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\exploded-aar\iamhome\react-native-google-signin\unspecified\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="b717c2decdcab90411cd6aee7a001044eb424401">
-        <dex dex="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\pre-dexed\debug\iamhome-react-native-google-signin-unspecified_0664b7ffed494749f769e0c50f91fc69174d5c6f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\exploded-aar\iamhome\react-native-vector-icons\unspecified\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="279750fed3c920d06351dbf32889c1b48203c7ad">
-        <dex dex="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\pre-dexed\debug\iamhome-react-native-vector-icons-unspecified_684e556d9e41c59040888fbdd454da7f78c72352.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.2.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
-        <dex dex="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.2.0_ab1c3aa39ba1a579af8a2a785808779c3dfc79a5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.2.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
-        <dex dex="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.2.0_3b7e5fcfb2ad990713932dfd251ccb2f88b7d638.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.3.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
         <dex dex="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-1.3.0_22476fe9bcc38ee49af34c02f1cd3bf89c255dfd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
-        <dex dex="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-1.3.0_223b48cc681a6fbc3d53cbc3bd780c3221af83da.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
-        <dex dex="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-1.3.0_98fdb36b161e8a293386a728324797a94567a2e0.jar" />
     </item>
     <item
         is-multidex="false"
@@ -246,66 +111,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\NV004\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.6.0\69edde9fc4b01c9fd51d25b83428837478c27254\okhttp-3.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
-        <dex dex="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\pre-dexed\debug\okhttp-3.6.0_4a5d7ee464fee3478284b19be942ed69624d7173.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.2.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.2.0_04871b680f50a7225b00ea49efbf0b8a04da980f.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.52.0\jars\libs\infer-annotations-4.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="9809e90be788acdb479b2b44e2112f3295a03068">
         <dex dex="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\pre-dexed\debug\infer-annotations-4.0_cedb931dadf844fe3e10e76dd9fff45b11278de9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.2.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
-        <dex dex="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.2.0_1eb14d83bfd23fd7b16172d749450c6b26e944cd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.2.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
-        <dex dex="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.2.0_6319df8c2e90fa8ebcd92de2f12d8d21e6391454.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
-        <dex dex="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fresco-1.3.0_ec032b18c711de404b538c54823aee047cba6ea9.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
-        <dex dex="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-1.3.0_02d59e305b05f5bfe770ac582237d4d6e71c9e0b.jar" />
     </item>
     <item
         is-multidex="false"
@@ -318,30 +129,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
-        <dex dex="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.3.0_5e868ad17f12dc0f1182171375bbc0e9a67e88ef.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.3.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
         <dex dex="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-1.3.0_bb68765eea80e2098b42ccafc8eb852fac15c282.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\NV004\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_af5c9b6eef0953eeea9b56127d642d7e792b93b1.jar" />
     </item>
     <item
         is-multidex="false"
@@ -390,24 +183,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.52.0\jars\libs\infer-annotations-4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
-        <dex dex="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\pre-dexed\debug\infer-annotations-4.0_896481d5352a78b4ec8fe17e73e918b20b15d584.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\NV004\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.2.0\support-annotations-25.2.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
-        <dex dex="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\pre-dexed\debug\support-annotations-25.2.0_658d54a3c5537242b62416f34cc68e24eb25bc0c.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\NV004\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
         jumboMode="false"
         optimize="true"
@@ -417,30 +192,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\1.3.0\jars\classes.jar"
+        jar="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
-        <dex dex="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-okhttp3-1.3.0_64ca885cee3704664ad2a003ed1c7a4dac1b961e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\11.0.4\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
-        <dex dex="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-11.0.4_7d38c449e9509dd23ad7db016f757f1d938641a3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\NV004\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\pre-dexed\debug\javax.inject-1_6482efe5755a722cbf3342e1a1bc5209a4d7c793.jar" />
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.1.1_7180a60c46de5b9681bd6ca652ec7c17945a0913.jar" />
     </item>
     <item
         is-multidex="false"
@@ -471,21 +228,300 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.2.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
-        <dex dex="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.2.0_b3070e25decef514fd0e44d80c46a0475daeee60.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\NV004\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="f162442a19fff13995fbd51ba414d9ee05579080">
         <dex dex="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\pre-dexed\debug\staticlayout-proxy-1.0_ab9c8312a7ce8b0fccf84a460acf6b8d5c1bf85f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.2.0_615e361894ddd4b81a35daeafa633f36b5448e79.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.3.0_72a6c7f859687a3c10627de261f6355c3a10b408.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\11.0.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
+        <dex dex="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-11.0.4_88a598900a1c6e1cb8f206e53747cc18292efded.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\11.0.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="0bffdc0bd4f7ca0e27c5bfeef39569f8da00aa26">
+        <dex dex="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-base-11.0.4_8a1b563a8460547815661b4285715e947c575251.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.2.0_a9f911594fa57c29a0a7420320c4d6001d6deb34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.52.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="af61eb11ffb4296cab0c93218248a3dfcec0a84c">
+        <dex dex="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\pre-dexed\debug\com.facebook.react-react-native-0.52.0_673e060011e1a90fdba35409bc8700f19aa8bf1c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\11.0.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f5ff5e3811e8c9485fd27f9052ae4d4d23a22d9d">
+        <dex dex="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-11.0.4_bf6dfa7df935b900b8659defbd9573ad4c62d3ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\pre-dexed\debug\com.facebook.soloader-soloader-0.1.0_a6e1c3ca84c9cade9022698c8024809db7ab7984.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\11.0.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2430e711762a749feb00b3d64858ca4768251b9d">
+        <dex dex="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-11.0.4_b93f08433e432b7df27f2ff946f7bdd4b5252cf6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-okhttp3-1.3.0_79703c9316199d3ad391396e8aebb7081bbd01fe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\exploded-aar\iamhome\react-native-vector-icons\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="279750fed3c920d06351dbf32889c1b48203c7ad">
+        <dex dex="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\pre-dexed\debug\iamhome-react-native-vector-icons-unspecified_e35ca981084b3b4c9d133830cd115f27b9efa4a0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\exploded-aar\iamhome\react-native-google-signin\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="b717c2decdcab90411cd6aee7a001044eb424401">
+        <dex dex="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\pre-dexed\debug\iamhome-react-native-google-signin-unspecified_0664b7ffed494749f769e0c50f91fc69174d5c6f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\exploded-aar\iamhome\react-native-vector-icons\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="279750fed3c920d06351dbf32889c1b48203c7ad">
+        <dex dex="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\pre-dexed\debug\iamhome-react-native-vector-icons-unspecified_684e556d9e41c59040888fbdd454da7f78c72352.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.2.0_ab1c3aa39ba1a579af8a2a785808779c3dfc79a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.2.0_3b7e5fcfb2ad990713932dfd251ccb2f88b7d638.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-1.3.0_223b48cc681a6fbc3d53cbc3bd780c3221af83da.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-1.3.0_98fdb36b161e8a293386a728324797a94567a2e0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NV004\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.6.0\69edde9fc4b01c9fd51d25b83428837478c27254\okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\pre-dexed\debug\okhttp-3.6.0_4a5d7ee464fee3478284b19be942ed69624d7173.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.2.0_04871b680f50a7225b00ea49efbf0b8a04da980f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.2.0_1eb14d83bfd23fd7b16172d749450c6b26e944cd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.2.0_6319df8c2e90fa8ebcd92de2f12d8d21e6391454.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fresco-1.3.0_ec032b18c711de404b538c54823aee047cba6ea9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-1.3.0_02d59e305b05f5bfe770ac582237d4d6e71c9e0b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.3.0_5e868ad17f12dc0f1182171375bbc0e9a67e88ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NV004\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_af5c9b6eef0953eeea9b56127d642d7e792b93b1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.52.0\jars\libs\infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\pre-dexed\debug\infer-annotations-4.0_896481d5352a78b4ec8fe17e73e918b20b15d584.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NV004\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.2.0\support-annotations-25.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\pre-dexed\debug\support-annotations-25.2.0_658d54a3c5537242b62416f34cc68e24eb25bc0c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-okhttp3-1.3.0_64ca885cee3704664ad2a003ed1c7a4dac1b961e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\11.0.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
+        <dex dex="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-11.0.4_7d38c449e9509dd23ad7db016f757f1d938641a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NV004\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\pre-dexed\debug\javax.inject-1_6482efe5755a722cbf3342e1a1bc5209a4d7c793.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\exploded-aar\iamhome\react-native-push-notification\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2e3e5a199c7209bab2dd53b85eefb664494af06d">
+        <dex dex="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\pre-dexed\debug\iamhome-react-native-push-notification-unspecified_25135e61b3e4deef215aa6be4318ca9b9ba76d23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.2.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="C:\Users\NV004\Documents\TRI\reactnativeproject\iamhome\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.2.0_b3070e25decef514fd0e44d80c46a0475daeee60.jar" />
     </item>
     <item
         is-multidex="false"
@@ -498,12 +534,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jar="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\exploded-aar\me.leolin\ShortcutBadger\1.1.8\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.0.1_d9e6bb42d0f595bf4ec9321243c26d20d4b31fbb.jar" />
+        sha1="531c33d3697000a05e9493a2d0f09ba41fa114d3">
+        <dex dex="C:\Users\NV004\source\repos\IamHome\App\android\app\build\intermediates\pre-dexed\debug\me.leolin-ShortcutBadger-1.1.8_d9af2a62faa9fa29afc6702d88cb9369d636b308.jar" />
     </item>
 
 </items>

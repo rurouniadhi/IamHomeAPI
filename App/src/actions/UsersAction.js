@@ -7,7 +7,7 @@ import {
   ITEM_UPDATE
 } from './types';
 
-const url = 'http://192.168.1.247:45457/api/users/';
+const url = 'http://202.138.247.133:5103/api/users/';
 
 export const itemSave = ({ Id, Name, Email, PhoneNumber, Status }) => {
   return () => {

@@ -7,3 +7,4 @@ export * from './Spinner';
 export * from './Confirm';
 export * from './MyText';
 export * from './ButtonCircle';
+// export * from './Notification';

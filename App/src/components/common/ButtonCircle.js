@@ -18,6 +18,7 @@ const ButtonCircle = ({ onPress, children, style }) => {
 
 const styles = {
     buttonStyle: {
+        flex: 0,
         padding: 10,
         margin: 20,
         borderColor: '#000',

@@ -19,6 +19,7 @@ export const loginUser = ({ items }) => {
       const userdb = _.find(items, { Email: currentUser });
         if (userdb != null) {
           loginUserSuccess(dispatch, user);
+          Actions.home({ Status: userdb.Status });
         } else {
           Alert.alert(
             'Please register your email first.',
@@ -30,7 +31,7 @@ export const loginUser = ({ items }) => {
           );
           console.log('you are not allow');
           GoogleSignin.signOut();
-          loginUserFail(dispatch, user);
+          loginUserFail(dispatch);
         }
     })
     .catch((err) => {
@@ -57,7 +58,7 @@ const logoutUserSuccess = (dispatch) => {
   dispatch({
     type: LOGOUT_USER_SUCCESS
   });
-  // Actions.login();
+  Actions.login();
   console.log('out');
 };
 
@@ -66,7 +67,6 @@ const loginUserSuccess = (dispatch, user) => {
     type: LOGIN_USER_SUCCESS,
     payload: user
   });
-  Actions.home();
 };
 
 const loginUserFail = (dispatch) => {

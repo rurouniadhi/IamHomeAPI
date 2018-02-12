@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import { View } from 'react-native';
-import { GoogleSigninButton } from 'react-native-google-signin';
+import { View, Text } from 'react-native';
 import { connect } from 'react-redux';
-import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+import Icon from 'react-native-vector-icons/FontAwesome';
 import { Spinner } from './common';
 import { loginUser, itemsFetchData, logoutUser } from '../actions';
 
@@ -16,27 +15,28 @@ class LoginForm extends Component {
   }
 
   renderButton() {
+    const buttonGoogle = (
+      <Icon.Button
+        name="google"
+        backgroundColor="#000"
+        onPress={this.onButtonPress.bind(this)}
+      >
+        <Text style={{ fontFamily: 'Arial', fontSize: 15, color: '#fff' }}>Login with Google</Text>
+      </Icon.Button>
+    );
     if (this.props.loading) {
-      return <Spinner size="large" style={{ marginTop: 400, alignSelf: 'center' }} />;
+      return <Spinner size="large" style={styles.buttonGoogle} />;
     }
     return (
-      <GoogleSigninButton
-        style={styles.buttonGoogle}
-        size={GoogleSigninButton.Size.Standard}
-        color={GoogleSigninButton.Color.Dark}
-        onPress={this.onButtonPress.bind(this)}
-      />
+      <View style={styles.buttonGoogle}>
+        {buttonGoogle}
+      </View>
     );
   }
 
   render() {
     return (
       <View style={styles.containerStyle}>
-        <View style={{ flex: 4, backgroundColor: '#E1CE7A', opacity: 0.8 }} />
-        <View style={{ flex: 3, backgroundColor: '#FBFFB9', opacity: 0.8 }} />
-        <View style={{ flex: 2, backgroundColor: '#FDD692', opacity: 0.8 }} />
-        <View style={{ flex: 1, backgroundColor: '#ffe6bb', opacity: 0.8 }} />
-        <Icon style={styles.logoStyle} name='home-map-marker' size={150} />
         {this.renderButton()}
       </View>
     );
@@ -45,8 +45,8 @@ class LoginForm extends Component {
 
 const styles = {
   containerStyle: {
-    flexDirection: 'row',
-    flex: 1
+    flex: 1,
+    backgroundColor: '#dfdfdf'
   },
   logoStyle: {
     position: 'absolute',
@@ -60,20 +60,18 @@ const styles = {
     elevation: 5
   },
   buttonGoogle: {
-    position: 'absolute',
-    height: 50,
-    width: 150,
-    bottom: 50,
-    left: 120,
-    padding: 10,
-    elevation: 5,
-    alignSelf: 'center'
+    flex: 1,
+    width: 175,
+    justifyContent: 'flex-end',
+    alignSelf: 'center',
+    bottom: 100
   }
 };
 
 const mapStateToProps = ({ auth, users }) => {
   const { error, loading } = auth;
   const { items, itemsHasErrored, itemsIsLoading } = users;
+  // const { currentUserdb } = userdb;
   return { error, loading, items, itemsHasErrored, itemsIsLoading };
 };
 

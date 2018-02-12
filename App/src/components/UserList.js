@@ -16,7 +16,7 @@ class UserList extends Component {
         return (
           <View>
             <FlatList
-              style={{ marginBottom: 30 }}
+              style={{ marginBottom: 5, flex: 0 }}
               data={this.props.items}
               keyExtractor={items => items.Id}
               renderItem={({ item }) =>

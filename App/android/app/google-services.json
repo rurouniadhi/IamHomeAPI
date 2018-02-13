@@ -15,6 +15,18 @@
       },
       "oauth_client": [
         {
+          "client_id": "1070010664755-u4ugdrmcepva2l1rt1ifasj9c8usvuc7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iamhome",
+            "certificate_hash": "c126dd0bcaef051a671278ff9d7e91bc4ca96221"
+          }
+        },
+        {
+          "client_id": "1070010664755-mq4tqa1ttemavkh3fa7697hqc9p11kra.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
           "client_id": "1070010664755-74hurvecb3g5jqtn0g7q3erpptsk6i70.apps.googleusercontent.com",
           "client_type": 3
         },

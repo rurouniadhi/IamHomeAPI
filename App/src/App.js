@@ -12,7 +12,7 @@ class App extends Component {
   componentWillMount() {
     GoogleSignin.configure({
       webClientId:
-        '1070010664755-74hurvecb3g5jqtn0g7q3erpptsk6i70.apps.googleusercontent.com'
+        '1070010664755-mq4tqa1ttemavkh3fa7697hqc9p11kra.apps.googleusercontent.com'
     });
     GoogleSignin.hasPlayServices({ autoResolve: true });
     PushNotification.configure({

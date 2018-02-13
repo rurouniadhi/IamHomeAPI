@@ -49,7 +49,7 @@ class CheckinPage extends Component {
   render() {
     const { closeButton } = styles;
     return (
-      <View style={{ backgroundColor: '#FBFFB9', flex: 1 }}>
+      <View style={{ backgroundColor: '#dbdbdb', flex: 1 }}>
         <Icon style={closeButton} name='cross' onPress={Actions.pop} size={40} />
         {this.renderCheckinConfirm()}
       </View>

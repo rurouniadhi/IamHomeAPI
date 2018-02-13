@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, Image } from 'react-native';
 import { connect } from 'react-redux';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import { Spinner } from './common';
@@ -18,10 +18,11 @@ class LoginForm extends Component {
     const buttonGoogle = (
       <Icon.Button
         name="google"
-        backgroundColor="#000"
         onPress={this.onButtonPress.bind(this)}
+        style={{ borderWidth: 3, backgroundColor: '#dbdbdb' }}
+        color='#000'
       >
-        <Text style={{ fontFamily: 'Arial', fontSize: 15, color: '#fff' }}>Login with Google</Text>
+        <Text style={{ fontFamily: 'Arial', fontSize: 15, color: '#000' }}>Login with Google</Text>
       </Icon.Button>
     );
     if (this.props.loading) {
@@ -35,8 +36,17 @@ class LoginForm extends Component {
   }
 
   render() {
+    const { containerStyle, logoContainer, logoStyle } = styles;
     return (
-      <View style={styles.containerStyle}>
+      <View style={containerStyle}>
+        <View
+          style={logoContainer}
+        >
+          <Image
+            style={logoStyle}
+            source={require('../assets/homelogo_black.png')}
+          />
+        </View>
         {this.renderButton()}
       </View>
     );
@@ -46,18 +56,19 @@ class LoginForm extends Component {
 const styles = {
   containerStyle: {
     flex: 1,
-    backgroundColor: '#dfdfdf'
+    backgroundColor: '#dbdbdb'
+  },
+  logoContainer: {
+    position: 'absolute',
+    top: 200,
+    bottom: 0,
+    justifyContent: 'center',
+    alignSelf: 'center'
   },
   logoStyle: {
-    position: 'absolute',
-    top: 40,
-    left: 50,
-    fontSize: 250,
-    color: '#754F44',
-    textAlign: 'center',
-    marginTop: 10,
-    marginBottom: 10,
-    elevation: 5
+    width: 150,
+    resizeMode: 'contain',
+    height: 150
   },
   buttonGoogle: {
     flex: 1,

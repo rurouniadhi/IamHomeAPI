@@ -7,7 +7,7 @@ import { GoogleSignin } from 'react-native-google-signin';
 import PushNotification from 'react-native-push-notification';
 import { Actions } from 'react-native-router-flux';
 import UserList from './UserList';
-import { ButtonCircle } from './common';
+import { ButtonCircle, Button } from './common';
 import { logoutUser, loginUser, itemsFetchData } from '../actions';
 
 class Home extends Component {
@@ -86,7 +86,7 @@ class Home extends Component {
     );
   }
   render() {
-    const { container, welcomeText, logoutStyle, headerStyle } = styles;
+    const { container, welcomeText, logoutStyle, headerStyle, buttonRefresh } = styles;
     const user = GoogleSignin.currentUser();
     return (
       <View style={container}>
@@ -104,12 +104,12 @@ class Home extends Component {
             </Text>
             {this.note()}
           </View>
-          <Text style={logoutStyle} >
+          <Button style={buttonRefresh}>
             <Icon
               name='ccw' onPress={this.onRefresh.bind(this)}
               size={30}
             />
-          </Text>
+          </Button>
         </View>
         <UserList />
         {this.renderButton()}
@@ -119,7 +119,7 @@ class Home extends Component {
 }
 const styles = {
   container: {
-    backgroundColor: '#FBFFB9',
+    backgroundColor: '#dbdbdb',
     flex: 1,
   },
   headerStyle: {
@@ -127,29 +127,34 @@ const styles = {
     justifyContent: 'space-between',
     padding: 20,
     height: 100,
-    flex: 1
   },
   welcomeText: {
     fontSize: 35,
-    color: '#754F44',
+    color: '#555555',
     fontFamily: 'Kievit'
   },
   logoutStyle: {
-    color: '#754F44',
+    color: '#555555',
     flex: 0,
     flexDirection: 'row',
     alignItems: 'center',
     marginRight: 5,
   },
+  buttonRefresh: {
+    width: 50,
+    height: 50,
+    borderWidth: 0,
+    margin: 0
+  },
   noteRed: {
     fontSize: 15,
-    color: '#c21010',
+    color: '#c44f4f',
     alignSelf: 'flex-end',
     paddingLeft: 20
   },
   note: {
     fontSize: 15,
-    color: '#754F44',
+    color: '#555555',
     alignSelf: 'flex-start',
     paddingLeft: 20
   },

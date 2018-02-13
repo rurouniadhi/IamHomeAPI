@@ -8,6 +8,7 @@ import { CardSection } from './common';
 class UserList extends Component {
     componentWillMount() {
       this.props.itemsFetchData();
+      console.log('userlist', this.props);
     }
 
     render() {
@@ -16,7 +17,7 @@ class UserList extends Component {
         return (
           <View>
             <FlatList
-              style={{ marginBottom: 5, flex: 0 }}
+              style={{ height: 550 }}
               data={this.props.items}
               keyExtractor={items => items.Id}
               renderItem={({ item }) =>
@@ -27,6 +28,7 @@ class UserList extends Component {
                 </CardSection>
               }
             />
+          
         </View>
         );
     }

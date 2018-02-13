@@ -15,9 +15,8 @@ class UserList extends Component {
         const { statusFalse, statusTrue, userStyle, cardTrue, cardFalse } = styles;
 
         return (
-          <View>
+          <View style={{ flex: 5 }}>
             <FlatList
-              style={{ height: 550 }}
               data={this.props.items}
               keyExtractor={items => items.Id}
               renderItem={({ item }) =>
@@ -28,7 +27,7 @@ class UserList extends Component {
                 </CardSection>
               }
             />
-          
+
         </View>
         );
     }

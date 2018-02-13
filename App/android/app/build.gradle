@@ -95,7 +95,7 @@ def enableProguardInReleaseBuilds = true
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "23.0.1"
+    buildToolsVersion "23.0.2"
 
     defaultConfig {
         applicationId "com.iamhome"
@@ -106,6 +106,8 @@ android {
         ndk {
             abiFilters "armeabi-v7a", "x86"
         }
+        manifestPlaceholders = [onesignal_app_id: "742d7b38-68fc-48d5-97cb-6a8d864c947c",
+                                onesignal_google_project_number: "1070010664755"]
     }
     signingConfigs {
         release {
@@ -154,6 +156,7 @@ dependencies {
         }
     compile project(':react-native-vector-icons')
     compile project(':react-native-google-signin')
+    compile project(':react-native-onesignal')
     compile fileTree(dir: "libs", include: ["*.jar"])
     compile "com.android.support:appcompat-v7:23.0.1"
     compile "com.facebook.react:react-native:+"  // From node_modules
